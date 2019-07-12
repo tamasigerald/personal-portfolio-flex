@@ -1,0 +1,131 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+}
+  
+#navbar {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    margin: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #cce8e1;
+    height: 70px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    list-style: none;
+    width: 6em;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #00936e;
+    font-weight: bold;
+}
+  
+#welcome-section {
+    height: 100vh;
+    min-height: 50vh;
+    top: 0;
+    background: #cce8e1;
+}
+  
+#welcome-section h1 {
+    padding-top: 45vh;
+}
+  
+#main-doc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 65%;
+}
+  
+#main-doc h1 {
+    padding-top: 50px;
+    color: #00936e;
+}
+  
+.quote {
+    background: #cce8e1;
+    border-radius: 5px;
+    padding: 30px 30px 20px 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+  
+.quote p {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+#p-wrapper {
+    width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+  
+img {
+    width: 75%;
+}
+  
+.project-tile {
+    background: #cce8e1;
+    padding-bottom: 1px;
+    padding-top: 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+  
+#contact {
+    width: 100%;
+    background: #cce8e1;
+    padding-bottom: 60px;
+}
+  
+#contact h1 {
+    padding-top: 80px;
+}
+  
+#contact p {
+  margin: 0 auto;
+    padding-bottom: 40px;
+    width: 85%;
+}
+  
+.c-info {
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #00936e;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #e0ebe8;
+    color: #00936e;
+    padding: 30px 30px 30px 30px;
+}
+  
+@media only screen and (max-width: 720px) {
+    #welcome-section > h1 {
+      font-size: 1em;
+    }
+
+    #main-doc {
+      width: 85%;
+    }
+}  
